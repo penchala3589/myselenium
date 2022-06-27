@@ -14,7 +14,7 @@ public class FirstSeleniumScript {
         System.setProperty("webdriver.gecko.driver", "//Users//krishnachaitanya//Downloads//geckodriver");
         WebDriver driver = new FirefoxDriver();
         // Using Edge
-        System.setProperty("webdriver.edge.driver", "//Users//krishnachaitanya//Downloads//drivers/msedgedriver");
+        System.setProperty("webdriver.edge.driver", "//Users//krishnachaitanya//Downloads//drivers//msedgedriver");
         WebDriver driver = new EdgeDriver();
         driver.get("https://rahulshettyacademy.com/");
         driver.getTitle();
